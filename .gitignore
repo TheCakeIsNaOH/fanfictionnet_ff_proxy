@@ -4,3 +4,4 @@ selenium-firefox-proxy.log
 cookie.json
 chromedriver
 .vscode
+src/undetected-chromedriver

@@ -217,8 +217,7 @@ class ProxiedBrowser:
 
         try:
             self.driver = driver = uc.Chrome(service_log_path=service_log_path,
-                                             options=options,
-                                             version_main=chrome_version)
+                                             options=options)
         except urllib.error.HTTPError as e:
             logger.error('Downloading chromedriver %i failed: %s',
                          chrome_version, str(e))
